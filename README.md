@@ -39,6 +39,6 @@ Transparency: The system always displays extraction/matching confidence and the 
 ### 5. Needed Developments / Bugs
 Uploading PDF functions not viable yet, manual text input required.
 
+<br><br>
 
-## Screenshot
 <img width="1512" alt="Screenshot 2025-05-16 at 8 16 23 PM" src="https://github.com/user-attachments/assets/07b5b29b-129a-4767-972c-c15d1743eb8b" />
