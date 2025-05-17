@@ -42,3 +42,9 @@ Uploading PDF functions not viable yet, manual text input required.
 <br><br>
 
 <img width="1512" alt="Screenshot 2025-05-16 at 8 16 23 PM" src="https://github.com/user-attachments/assets/07b5b29b-129a-4767-972c-c15d1743eb8b" />
+
+<br><br>
+
+https://github.com/user-attachments/assets/c9e5c2e8-c3d5-4cda-aaa8-c64fb2960e29
+
+
