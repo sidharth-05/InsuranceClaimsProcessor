@@ -13,10 +13,12 @@ Built with **Next.js 14**, **React 18**, **TypeScript**, **Tailwind CSS**, and *
 
 ### 1. Setup & Run Instructions
 
+'''bash
 git clone https://github.com/sidharth-05/InsuranceClaimsProcessor.git
 cd insurance-claims-processor
 npm install
 npm start
+'''bash
 
 ### 2. Environment setup:
 Copy .env.example to .env and fill in required API keys (e.g., GROQ_API_KEY for LLM extraction).
