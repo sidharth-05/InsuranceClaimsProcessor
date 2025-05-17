@@ -1,56 +1,47 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
-# debug
+# === Node.js ===
+node_modules/
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
-
-# env files
-.env*
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# If you use npm (ignore pnpm lockfile)
 pnpm-lock.yaml
-
-# If you use pnpm (ignore npm lockfile)
 package-lock.json
-components.json
+yarn.lock
 
-# VS Code settings (optional)
-.vscode/
+# === Next.js ===
+.next/
+out/
 
-# MacOS files
+# === Build output ===
+dist/
+build/
+
+# === Env Files ===
+.env
+.env.*   # handles .env.local, .env.production, etc.
+
+# === OS generated ===
 .DS_Store
+Thumbs.db
 
-# Editor swap files
+# === IDEs/editors ===
+.vscode/
+.idea/
 *.swp
 
+# === Logs ===
+*.log
+logs/
 
-# vercel
-.vercel
+# === Misc ===
+*.local
+*.tgz
+*.bak
+*.tmp
 
-# typescript
+# === Coverage and test ===
+coverage/
+jest.config.js
+
+# === Public junk ===
+public/*.DS_Store
+
+# === TypeScript ===
 *.tsbuildinfo
-next-env.d.ts
-
-next.config.mjs
-package-lock.json
-package.json
-pnpm-lock.yaml
-postcss.config.mjs
-tailwind.config.ts
-tsconfig.json
